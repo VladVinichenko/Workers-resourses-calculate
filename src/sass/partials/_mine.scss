@@ -1,0 +1,43 @@
+.mine {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.mine__title {
+  color: white;
+  text-align: center;
+}
+
+.mine__box {
+  display: flex;
+}
+
+.mine__input {
+  width: 80px;
+  margin-left: 10px;
+  margin-right: 30px;
+  padding: 5px 10px;
+  border-radius: 3px;
+  border: 1px solid black;
+  background-color: rgba(0, 0, 0, 0.404);
+  color: white;
+  transition: all 200ms;
+  &:focus {
+    outline: none;
+    background-color: rgba(255, 255, 255, 0.678);
+    color: black;
+  }
+}
+
+.mine__text {
+  margin-right: 8px;
+}
+
+.mine__first-box {
+}
+
+.mine__second-box {
+  display: flex;
+  align-items: center;
+  color: antiquewhite;
+}
